@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47eca3e7-82a9-410a-a609-8b911f29d71d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/InventoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/common/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/common/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/common/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/ProductionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/SalesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/controller/WarehouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/dto/ChangePasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/BasCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/BasDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/BasProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/BasSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/BasWarehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/ProMaterialReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/ProMaterialReqDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/ProPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/ProProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/ProQuality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/PurInbound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/PurInboundDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/PurOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/PurOrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/SalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/SalOrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/SalOutbound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/SalOutboundDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/StcCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/StcCheckDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/StcInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/StcRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/StcTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/StcTransferDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/SysTenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/BasCustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/BasDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/BasProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/BasSupplierMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/BasWarehouseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/ProMaterialReqMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/ProPlanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/ProProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/ProQualityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/PurInboundDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/PurInboundMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/PurOrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/PurOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/SalOrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/SalOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/SalOutboundDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/SalOutboundMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/StcInventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/StcRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/security/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/security/TenantContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/ProductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/PurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/SalesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/manufacturing/inventory/service/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/ChangePassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Customer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Inventory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/InventoryRecord.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Product.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/ProductionPlan.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/PurchaseInbound.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/PurchaseOrder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/SalesOrder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/SalesOutbound.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Supplier.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Warehouse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/inventory_system.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="3C9K8i1xcPuI8cEDUNSih15902j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project-demo-master/Sales_Demo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="inventory-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.manufacturing.inventory.InventoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.InventoryApplication" />
+        <item itemvalue="Spring Boot.InventoryApplication" />
+        <item itemvalue="Spring Boot.InventoryApplication" />
+        <item itemvalue="Spring Boot.InventoryApplication" />
+        <item itemvalue="Spring Boot.InventoryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47eca3e7-82a9-410a-a609-8b911f29d71d" name="Default Changelist" comment="" />
+      <created>1775792188081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775792188081</updated>
+      <workItem from="1775792189495" duration="6400000" />
+      <workItem from="1775998136023" duration="381000" />
+      <workItem from="1775999112821" duration="5503000" />
+      <workItem from="1776135507090" duration="1392000" />
+      <workItem from="1776137316882" duration="4135000" />
+      <workItem from="1776152605999" duration="1060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

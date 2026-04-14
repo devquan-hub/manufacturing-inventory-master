@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.layout-container {
+  height: 100vh;
+}
+
+.header {
+  background: #409eff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar {
+  background: #304156;
+}
+
+.menu-item {
+  color: #bfcbd9;
+}
+
+.menu-item:hover {
+  background: #263445 !important;
+  color: #409eff !important;
+}
+
+.menu-item.is-active {
+  background: #409eff !important;
+  color: white !important;
+}
+
+.content {
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+.search-bar {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.table-card {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: 500;
+}
