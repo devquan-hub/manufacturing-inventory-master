@@ -61,7 +61,7 @@
       />
     </div>
 
-    <el-dialog v-model="dialogVisible" :title="dialogTitle" width="500px">
+    <el-dialog v-model="dialogVisible" draggable :title="dialogTitle" width="500px">
       <el-form :model="form" :rules="rules" ref="formRef" label-width="100px">
         <el-form-item label="仓库编码" prop="code">
           <el-input v-model="form.code" />

@@ -31,7 +31,7 @@
       </el-table>
     </div>
 
-    <el-dialog v-model="dialogVisible" :title="dialogTitle" width="600px">
+    <el-dialog v-model="dialogVisible" draggable :title="dialogTitle" width="600px">
       <el-form :model="form" ref="formRef" label-width="100px">
         <el-form-item label="客户编码" prop="code">
           <el-input v-model="form.code" />

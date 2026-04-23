@@ -55,7 +55,7 @@
       />
     </div>
 
-    <el-dialog v-model="dialogVisible" title="新建采购订单" width="600px">
+    <el-dialog v-model="dialogVisible" draggable title="新建采购订单" width="600px">
       <el-form :model="form" :rules="rules" ref="formRef" label-width="100px">
         <el-form-item label="供应商" prop="supplierId">
           <el-input-number v-model="form.supplierId" :min="1" />

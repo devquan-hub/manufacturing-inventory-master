@@ -47,7 +47,7 @@
       <el-pagination style="margin-top: 20px" v-model:current-page="pageNum" v-model:page-size="pageSize" :total="total" layout="total, sizes, prev, pager, next" @change="loadData" />
     </div>
 
-    <el-dialog v-model="dialogVisible" title="新建销售订单" width="600px">
+    <el-dialog v-model="dialogVisible" draggable title="新建销售订单" width="600px">
       <el-form :model="form" :rules="rules" ref="formRef" label-width="100px">
         <el-form-item label="客户" prop="customerId">
           <el-input-number v-model="form.customerId" :min="1" />
